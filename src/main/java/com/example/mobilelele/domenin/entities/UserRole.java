@@ -1,5 +1,4 @@
 package com.example.mobilelele.domenin.entities;
-
 import com.example.mobilelele.domenin.enums.Role;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

@@ -1,9 +1,7 @@
 package com.example.mobilelele.domenin.entities;
-
 import com.example.mobilelele.domenin.enums.Engine;
 import com.example.mobilelele.domenin.enums.Transmission;
 import jakarta.persistence.*;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.Year;

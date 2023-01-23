@@ -1,8 +1,6 @@
 package com.example.mobilelele.domenin.entities;
-
 import com.example.mobilelele.domenin.enums.Category;
 import jakarta.persistence.*;
-
 import java.time.LocalDateTime;
 
 @Entity
