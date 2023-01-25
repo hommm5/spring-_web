@@ -21,6 +21,6 @@ public class OfferServiceImpl implements OfferService, DataBaseInitService {
 
     @Override
     public boolean isDbInit() {
-        return this.offerRepository.count() > 0;
+        return this.offerRepository.count() >= 0;
     }
 }

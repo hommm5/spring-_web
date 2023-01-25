@@ -21,6 +21,6 @@ public class UserServiceImpl implements UserService, DataBaseInitService {
 
     @Override
     public boolean isDbInit() {
-        return this.userRepository.count() > 0;
+        return this.userRepository.count() >= 0;
     }
 }

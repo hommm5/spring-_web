@@ -22,7 +22,7 @@ public class BrandServiceImpl implements BrandService, DataBaseInitService {
 
     @Override
     public boolean isDbInit() {
-        return this.brandRepository.count() > 0;
+        return this.brandRepository.count() >= 0;
     }
 }
 
